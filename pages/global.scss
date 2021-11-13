@@ -1,0 +1,17 @@
+// :root {
+//   font-size : 16px;
+//   --zdarova : red;
+
+//   body {
+//     font-size : 1rem;
+//   }
+// }
+a {
+  all : unset;
+  cursor : pointer;
+  transition : .3s ease;
+
+  &:hover {
+    color : var(--bs-blue);
+  }
+}
